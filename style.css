@@ -206,3 +206,28 @@ body {
     font-size: 18px;
     width: 500px;
 }
+
+.buttontables {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    background-color: yellow;
+}
+
+.wholelist {
+    list-style: none;
+}
+
+.listtitle {
+    padding: 5px;
+}
+
+.listtitle:hover {
+    cursor:pointer;
+}
+
+.listicon {
+    font-size: 8px;
+    margin-left: 4px;
+}
