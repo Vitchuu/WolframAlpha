@@ -257,7 +257,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
-    padding-right: 50px;
+    padding-right: 45px;
     margin-top: 10px;
     color: gray;
 }
@@ -300,4 +300,66 @@ body {
 
 .everydayLifetopic:hover {
     border-color: rgb(39, 192, 192);
+}
+
+.graybar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(245, 245, 245);
+    color: rgb(110, 110, 110);
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.graybar:hover {
+    cursor:pointer;
+}
+
+#wolframlang:hover {
+    color: rgb(255, 102, 0);
+}
+
+.bottombar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.bottombarlink {
+    padding: 4px;
+}
+
+.bottombarlink:hover {
+    cursor: pointer;
+    color: rgb(255, 102, 0);
+}
+
+.bottombarlist {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.bottombarlist li {
+    display: inline;
+}
+
+.bottomIcon {
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.LLC {
+    font-weight: normal;
 }
