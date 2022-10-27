@@ -252,6 +252,52 @@ body {
 .topicbutton {
     border-style: solid;
     border-width: 1px;
-    border-color: gray;
+    border-color: lightgray;
     border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 50px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.topicbutton:hover {
+    cursor:pointer;
+}
+
+.topicicon {
+    margin-right: 4px;
+}
+
+.mathmore {
+    border-color: rgb(187, 98, 187);
+}
+
+.scienceTechmore {
+    border-color: rgb(4, 165, 4);
+}
+
+.societyCulturemore {
+    border-color: red;
+}
+
+.everydayLifemore {
+    border-color: rgb(39, 192, 192)
+}
+
+.mathtopic:hover {
+    border-color: rgb(187, 98, 187);
+}
+
+.scienceTechtopic:hover {
+    border-color: rgb(4, 165, 4);
+}
+
+.societyCulturetopic:hover {
+    border-color: red;
+}
+
+.everydayLifetopic:hover {
+    border-color: rgb(39, 192, 192);
 }
